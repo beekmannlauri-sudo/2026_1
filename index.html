@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordic & Baltic 2026 Policy Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f5f7;
+            color: #0f172a;
+        }
+        .container {
+            max-width: 1150px;
+        }
+        .masthead {
+            border-bottom: 1px solid #cbd5f5;
+            background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+        }
+        .headline {
+            font-family: 'Playfair Display', serif;
+        }
+        .card {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.75rem;
+            box-shadow: 0 12px 30px -24px rgba(15, 23, 42, 0.5);
+        }
+        .badge {
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.6rem;
+            border-radius: 9999px;
+        }
+        .badge-confirmed {
+            background-color: #dbeafe;
+            color: #1d4ed8;
+        }
+        .badge-window {
+            background-color: #fef3c7;
+            color: #92400e;
+        }
+        .badge-strategy {
+            background-color: #dcfce7;
+            color: #166534;
+        }
+        .section-title {
+            position: relative;
+            padding-left: 1.25rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .section-title::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.35rem;
+            width: 0.35rem;
+            height: 1.5rem;
+            background-color: #4f46e5;
+            border-radius: 9999px;
+        }
+        .timeline-card {
+            border-left: 4px solid #c7d2fe;
+        }
+        .source-link {
+            color: #2563eb;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-10">
+
+<div class="container mx-auto space-y-10">
+    <header class="masthead rounded-2xl p-6 md:p-10">
+        <div class="flex flex-col gap-6">
+            <div class="flex flex-wrap items-center justify-between gap-4">
+                <div>
+                    <p class="text-xs uppercase tracking-[0.35em] text-indigo-500">Living 2026 Tracker</p>
+                    <h1 class="headline text-3xl md:text-5xl font-semibold text-slate-900">Nordic & Baltic Policy Calendar</h1>
+                </div>
+                <div class="text-sm text-slate-600">
+                    Updated for the 2026 policy cycle · Focused on alcohol & drug policy drivers
+                </div>
+            </div>
+            <p class="text-base md:text-lg text-slate-600 max-w-3xl">
+                A news-style brief of elections, presidencies, strategies, and excise duty changes that shape
+                alcohol and drug policy across the Nordic and Baltic region. Every point below links to its source.
+            </p>
+        </div>
+    </header>
+
+    <section class="card p-6 md:p-8">
+        <h2 class="text-2xl font-semibold section-title">Key 2026 Drivers</h2>
+        <div class="mt-6 grid gap-6 md:grid-cols-2">
+            <div class="space-y-2">
+                <p class="font-semibold">EU drug policy reset</p>
+                <p class="text-sm text-slate-600">
+                    New EU Drugs Strategy 2026–2030 and Action Plan on trafficking guide 2026 onward.
+                    <a class="source-link" href="https://home-affairs.ec.europa.eu/news/commission-presents-new-eu-drugs-strategy-and-action-plan-against-drug-trafficking-2025-12-04_en" target="_blank" rel="noreferrer">Source</a>
+                </p>
+            </div>
+            <div class="space-y-2">
+                <p class="font-semibold">Council of the EU presidencies</p>
+                <p class="text-sm text-slate-600">
+                    Cyprus (Jan–Jun) and Ireland (Jul–Dec). Lithuania prepares for 2027 handover.
+                    <a class="source-link" href="https://www.consilium.europa.eu/en/council-eu/presidency-council-eu/" target="_blank" rel="noreferrer">Source</a>
+                </p>
+            </div>
+            <div class="space-y-2">
+                <p class="font-semibold">Nordic Council of Ministers presidency</p>
+                <p class="text-sm text-slate-600">
+                    Denmark + Faroe Islands lead 2026 with priorities touching youth, security, and resilience.
+                    <a class="source-link" href="https://www.norden.org/en/news/denmark-and-faroe-islands-take-over-presidency-nordic-council-ministers" target="_blank" rel="noreferrer">Source</a>
+                </p>
+            </div>
+            <div class="space-y-2">
+                <p class="font-semibold">NB8 & Baltic coordination</p>
+                <p class="text-sm text-slate-600">
+                    Estonia chairs NB8, the Baltic Assembly, and the Baltic Council of Ministers in 2026.
+                    <a class="source-link" href="https://vm.ee/en/NB8" target="_blank" rel="noreferrer">Source</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="card p-6 md:p-8 space-y-6">
+        <div class="flex flex-wrap items-center justify-between gap-4">
+            <h2 class="text-2xl font-semibold section-title">2026 Month-by-Month Timeline</h2>
+            <div class="flex flex-wrap gap-2 text-xs">
+                <span class="badge badge-confirmed">Confirmed date</span>
+                <span class="badge badge-window">Likely decision window</span>
+                <span class="badge badge-strategy">Strategy cycle</span>
+            </div>
+        </div>
+        <div class="grid gap-4 md:grid-cols-2">
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">January</h3>
+                    <span class="badge badge-confirmed">Confirmed date</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        EU Council presidency starts: Cyprus (Jan–Jun).
+                        <a class="source-link" href="https://www.consilium.europa.eu/en/council-eu/presidency-council-eu/" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Estonia excise duty +10% on alcohol and tobacco.
+                        <a class="source-link" href="https://news.err.ee/1609897748/what-to-expect-in-estonia-in-2026" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Finland alcohol excise increase enters into force.
+                        <a class="source-link" href="https://www.vero.fi/en/About-us/newsroom/changes-in-taxation/changes-to-the-excise-duty-2026/" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">February</h3>
+                    <span class="badge badge-strategy">Strategy cycle</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        Finland Substance Use and Addiction Strategy 2030 remains in force for 2026 planning.
+                        <a class="source-link" href="https://valtioneuvosto.fi/en/-/1271139/new-guidelines-for-reducing-harms-caused-by-substance-abuse-and-addictions" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Estonia National Health Plan 2020–2030 provides the overarching policy framework.
+                        <a class="source-link" href="https://thl.fi/en/research-and-development/research-and-projects/national-mental-health-strategy-2020-2030" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">March</h3>
+                    <span class="badge badge-confirmed">Confirmed date</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        Latvia increases excise duty on spirits from 15 March.
+                        <a class="source-link" href="https://www.baltictimes.com/saeima_supports_raising_excise_taxes_on_alcohol__tobacco__sweetened_drinks/" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        EU Action Plan against drug trafficking operationalises 2026 work.
+                        <a class="source-link" href="https://home-affairs.ec.europa.eu/eu-action-plan-against-drug-trafficking_en" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">April</h3>
+                    <span class="badge badge-window">Likely decision window</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        Estonia’s NB8 coordination agenda shapes spring positioning.
+                        <a class="source-link" href="https://vm.ee/en/NB8" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Baltic Assembly presidency schedule aligns for 2026 cooperation tracks.
+                        <a class="source-link" href="https://www.baltasam.org/sessions-and-documents/44th-session" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">May</h3>
+                    <span class="badge badge-strategy">Strategy cycle</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        Sweden’s ANDTS strategy renewal window (current strategy 2022–2025).
+                        <a class="source-link" href="https://www.government.se/government-policy/sweden-mobilising-efforts-to-boost-global-competitiveness-and-foreign-trade/" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Latvia Public Health Guidelines 2021–2027 approach late-cycle review.
+                        <a class="source-link" href="https://www.drogy-info.cz/en/publications/professional-publications/drug-policy-strategy/national-action-plan-on-information-system-in-addictions-2024-2026/" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">June</h3>
+                    <span class="badge badge-window">Likely decision window</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        Nordic Council of Ministers presidency priorities align with prevention and security.
+                        <a class="source-link" href="https://www.norden.org/en/news/denmark-and-faroe-islands-take-over-presidency-nordic-council-ministers" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        EU Drugs Strategy 2026–2030 framework guides national planning.
+                        <a class="source-link" href="https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52025DC0743" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">July</h3>
+                    <span class="badge badge-confirmed">Confirmed date</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        EU Council presidency switches to Ireland (Jul–Dec).
+                        <a class="source-link" href="https://www.consilium.europa.eu/en/council-eu/presidency-council-eu/" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Sweden: proposed small-producer alcohol tax change could take effect 1 July.
+                        <a class="source-link" href="https://www.regeringen.se/rattsliga-dokument/departementsserien-och-promemorior/2025/11/sankt-alkoholskatt-for-alkoholvaror-fran-oberoende-smaproducenter/" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">August</h3>
+                    <span class="badge badge-window">Likely decision window</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        Sweden election year campaign period ahead of September vote.
+                        <a class="source-link" href="https://val.se/kommande-val/val-2026---riksdag-region-och-kommun" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Denmark election timing governed by four-year parliamentary term rule.
+                        <a class="source-link" href="https://www.elections.im.dk/parliament-elections/folketing-parliamentary-elections-act" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">September</h3>
+                    <span class="badge badge-confirmed">Confirmed date</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        Sweden general, regional, and municipal elections (13 September).
+                        <a class="source-link" href="https://val.se/kommande-val/val-2026---riksdag-region-och-kommun" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Estonia presidential election process via Riigikogu/electoral college.
+                        <a class="source-link" href="https://www.valimised.ee/en/estonian-elections-nutshell/president-republic-estonia-elections" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">October</h3>
+                    <span class="badge badge-confirmed">Confirmed date</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        Latvia parliamentary election due by 3 October.
+                        <a class="source-link" href="https://en.wikipedia.org/wiki/Next_Latvian_parliamentary_election" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Denmark general election must be held by 31 October.
+                        <a class="source-link" href="https://www.elections.im.dk/parliament-elections/folketing-parliamentary-elections-act" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">November</h3>
+                    <span class="badge badge-window">Likely decision window</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        Lithuania excise plan 2025–2027 drives 2026 implementation focus.
+                        <a class="source-link" href="https://finmin.lrv.lt/en/news/ministry-of-finance-submits-the-draft-excise-plan-for-20252027" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Estonia Baltic Assembly presidency sets 2026 cooperation priorities.
+                        <a class="source-link" href="https://www.baltasam.org/sessions-and-documents/44th-session" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline-card border border-slate-200 rounded-xl p-4 space-y-3">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-lg font-semibold">December</h3>
+                    <span class="badge badge-window">Likely decision window</span>
+                </div>
+                <ul class="text-sm text-slate-600 list-disc list-inside space-y-1">
+                    <li>
+                        EU Drugs Strategy 2026–2030 Action Plan and trafficking plan continue to guide 2027 programming.
+                        <a class="source-link" href="https://home-affairs.ec.europa.eu/eu-action-plan-against-drug-trafficking_en" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                    <li>
+                        Nordic Council of Ministers presidency 2026 work programme closes out.
+                        <a class="source-link" href="https://www.norden.org/en/information/about-presidency-nordic-council-ministers" target="_blank" rel="noreferrer">Source</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="card p-6 md:p-8">
+        <h2 class="text-2xl font-semibold section-title">Excise Duty Watchlist (2026)</h2>
+        <div class="mt-6 grid gap-4 md:grid-cols-2">
+            <div class="p-4 border border-slate-200 rounded-xl">
+                <p class="font-semibold">Estonia</p>
+                <p class="text-sm text-slate-600">
+                    Alcohol + tobacco excise rates rise by 10% from 1 January 2026.
+                    <a class="source-link" href="https://news.err.ee/1609897748/what-to-expect-in-estonia-in-2026" target="_blank" rel="noreferrer">Source</a>
+                </p>
+            </div>
+            <div class="p-4 border border-slate-200 rounded-xl">
+                <p class="font-semibold">Finland</p>
+                <p class="text-sm text-slate-600">
+                    Alcohol excise increase enters into force on 1 January 2026.
+                    <a class="source-link" href="https://www.vero.fi/en/About-us/newsroom/changes-in-taxation/changes-to-the-excise-duty-2026/" target="_blank" rel="noreferrer">Source</a>
+                </p>
+            </div>
+            <div class="p-4 border border-slate-200 rounded-xl">
+                <p class="font-semibold">Latvia</p>
+                <p class="text-sm text-slate-600">
+                    Spirits excise duty increases from 15 March 2026.
+                    <a class="source-link" href="https://www.baltictimes.com/saeima_supports_raising_excise_taxes_on_alcohol__tobacco__sweetened_drinks/" target="_blank" rel="noreferrer">Source</a>
+                </p>
+            </div>
+            <div class="p-4 border border-slate-200 rounded-xl">
+                <p class="font-semibold">Lithuania</p>
+                <p class="text-sm text-slate-600">
+                    2025–2027 excise plan continues with scheduled 2026 increases.
+                    <a class="source-link" href="https://finmin.lrv.lt/en/news/ministry-of-finance-submits-the-draft-excise-plan-for-20252027" target="_blank" rel="noreferrer">Source</a>
+                </p>
+            </div>
+            <div class="p-4 border border-slate-200 rounded-xl md:col-span-2">
+                <p class="font-semibold">Sweden</p>
+                <p class="text-sm text-slate-600">
+                    Proposal: reduced alcohol tax for independent small producers from 1 July 2026.
+                    <a class="source-link" href="https://www.regeringen.se/rattsliga-dokument/departementsserien-och-promemorior/2025/11/sankt-alkoholskatt-for-alkoholvaror-fran-oberoende-smaproducenter/" target="_blank" rel="noreferrer">Source</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="card p-6 md:p-8">
+        <h2 class="text-2xl font-semibold section-title">Tracker Notes & Sources</h2>
+        <p class="mt-4 text-sm text-slate-600">
+            Use this page as a living tracker by updating dates, adding new policy windows, and linking
+            to primary sources for each item. Confirmed dates are verified, while decision windows reflect
+            strategy cycles and presidency calendars.
+        </p>
+        <div class="mt-4 grid gap-2 text-sm text-indigo-600">
+            <a href="https://www.consilium.europa.eu/en/council-eu/presidency-council-eu/" target="_blank" rel="noreferrer">Council of the EU presidency calendar</a>
+            <a href="https://home-affairs.ec.europa.eu/news/commission-presents-new-eu-drugs-strategy-and-action-plan-against-drug-trafficking-2025-12-04_en" target="_blank" rel="noreferrer">EU Drugs Strategy 2026–2030 package</a>
+            <a href="https://www.norden.org/en/news/denmark-and-faroe-islands-take-over-presidency-nordic-council-ministers" target="_blank" rel="noreferrer">Nordic Council of Ministers presidency 2026</a>
+            <a href="https://vm.ee/en/NB8" target="_blank" rel="noreferrer">Estonia NB8 coordination</a>
+            <a href="https://val.se/kommande-val/val-2026---riksdag-region-och-kommun" target="_blank" rel="noreferrer">Sweden elections 2026</a>
+            <a href="https://www.vero.fi/en/About-us/newsroom/changes-in-taxation/changes-to-the-excise-duty-2026/" target="_blank" rel="noreferrer">Finland excise duty changes 2026</a>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
